@@ -1,0 +1,37 @@
+.header {
+  background-color: aqua;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.header_navegacion {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 25px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.header_navegacion .nevegacion ul {
+  list-style: none;
+}
+.header_navegacion .nevegacion ul li {
+  position: relative;
+  float: left;
+}
+.header_navegacion .nevegacion ul li a {
+  font-size: 18px;
+  padding: 20px;
+  text-decoration: none;
+}
