@@ -2,6 +2,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #cccccc;
 }
 .header {
   position: relative; /* Agrega esta línea para establecer el contexto de posición */
@@ -62,11 +63,9 @@ body {
   margin-right: 10px;
   text-decoration: none;
   color: aliceblue;
-  background-color: black;
-  border-radius: 50%;
 }
 .header_navegacion .nevegacion ul li a:hover {
-  background-color: brown;
+  color: brown;
 }
 
 .header_container {
@@ -87,4 +86,54 @@ body {
   margin-top: 35px;
   color: white;
   white-space: normal; /* Cambio aquí: para permitir el ajuste de línea automático */
+}
+
+.principal {
+  margin-top: 100px;
+}
+.prinsipal_texto {
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+.prinsipal_texto .prinsipal_txt {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.prinsipal_texto .prinsipal_txt h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.prinsipal_texto .prinsipal_txt h2:hover {
+  color: #003366;
+}
+.prinsipal_texto .prinsipal_txt p {
+  font-size: 18px;
+  line-height: 30px;
+}
+.prinsipal_texto .prinsipal_txt a {
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+  background-color: #009999;
+  color: white;
+  border-radius: 50%;
+  width: 100px;
+}
+.prinsipal_texto .prinsipal_txt a:hover {
+  background-color: #003366;
+}
+
+.prinsipal_texto .prinsipal_img {
+  width: 65%;
+  overflow: hidden;
+}
+.prinsipal_texto .prinsipal_img img {
+  max-width: 100%; /* La imagen no será más ancha que su contenedor */
+  height: auto;
 }
