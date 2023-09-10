@@ -63,6 +63,7 @@ body {
   margin-right: 10px;
   text-decoration: none;
   color: aliceblue;
+  text-transform: uppercase;
 }
 .header_navegacion .nevegacion ul li a:hover {
   color: brown;
@@ -117,20 +118,29 @@ body {
   font-size: 18px;
   line-height: 30px;
 }
-.prinsipal_texto .prinsipal_txt a {
-  text-decoration: none;
-  display: block;
-  padding: 15px;
+
+.boton a {
+  display: inline-block;
+  padding: 13px 25px;
+  width: 150px;
+  height: 40px;
+  margin: 0 10px;
   background-color: #009999;
   color: white;
-  border-radius: 50%;
-  width: 100px;
+  border-radius: 30px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 40px;
+  font-size: 20px;
 }
+
 .prinsipal_texto .prinsipal_txt a:hover {
   background-color: #003366;
 }
 
 .prinsipal_texto .prinsipal_img {
+  border-radius: 10px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.4);
   width: 65%;
   overflow: hidden;
 }
@@ -173,4 +183,27 @@ body {
 }
 .cartas_servicios p {
   font-size: 18px;
+}
+.portafolio {
+  background-color: #003366;
+  color: white;
+}
+.portafolio .portafolio_titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.portafolio .portafolio_img {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 50px;
+  padding: 20px;
+}
+.portafolio .portafolio_img img {
+  width: 300px;
+  height: 250px;
 }
