@@ -207,3 +207,27 @@ body {
   width: 300px;
   height: 250px;
 }
+.portafolio .boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.nosotros .nosotros-txt {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.nosotros .nosotros-txt .txt-pt {
+  width: 60%;
+}
+.nosotros .nosotros-txt .nosotros-img {
+  width: 40%;
+}
+
+.nosotros-img figure img {
+  width: 100%;
+  height: 100%;
+}
